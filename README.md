@@ -1,4 +1,4 @@
-Mixitup
+Mixitup - Meteor
 ============
 
 Meteor packaging of Patrickkunka/mixitup
