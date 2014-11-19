@@ -1,6 +1,8 @@
 Mixitup - Meteor
 ============
 
+`meteor add iamkevingreen:mixitup`
+
 Meteor packaging of Patrickkunka/mixitup
 
 All rights to [patrickkunka/mixitup](https://github.com/patrickkunka/mixitup) are with the original author
