@@ -42,6 +42,11 @@ Example
     Template.mytemplate.rendered=function() {
       $('#Container').mixItUp();
     }
+    Template.mytemplate.destroyed=function() {
+      $('#Container').mixItUp('destroy',true);
+    }
+
+Make sure to destroy the mixitup instance if you are jumping between pages otherwise it will not fire when the template is rendered a second time.
 
 See [Mixitup @ KunkaLabs.com](https://mixitup.kunkalabs.com/) for more information and api documentation
 
